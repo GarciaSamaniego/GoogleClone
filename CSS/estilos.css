@@ -38,6 +38,10 @@ nav .nav-right-section a {
     margin-right: 10px;
     color: #000000;
 }
+main .main-zone p{
+    text-align: center;
+    margin-top: 30px;
+}
 
 nav .nav-right-section .menu-icon {
     background-image: url("https://static.thenounproject.com/png/756729-200.png");
@@ -46,9 +50,69 @@ nav .nav-right-section .menu-icon {
     background-size: contain;
     width: 25px;
     height: 25px;
+    margin-left: 10px;
 }
 
 nav .nav-right-section img {
     border-radius: 50%;
     margin-left: 10px;
+}
+main .main-logo img{
+    display: flex;
+    justify-content: center;
+    height: 92px;
+    width: 272px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+main .main-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 582px;
+    height: 42px;
+    margin: 0 auto;
+    border-radius: 51px;
+    border: 1px #e2e2e2 solid;
+    margin-top: 25px;
+    box-shadow: 20px #b6b6b8;
+}
+main .main-search-container .main-input {
+    width: 480px;
+    height: 25px;
+    border-style: none;
+    outline: none;
+    border: none;
+    margin: 0 15px;
+}
+main .main-search-container .search-icon {
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    justify-items: left;
+}
+main .main-search-container .micro-icon {
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+main .main-buttons{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+main .main-buttons button{
+    margin-right:  15px;
+    margin-top: 30px;
+    width: 153px;
+    height: 36px;
+    background-color: #f8f9fa;
+    border: none;
 }
